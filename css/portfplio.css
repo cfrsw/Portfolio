@@ -159,6 +159,10 @@ h2 {
   
 }
 
+.work {
+  border: #f4f4f4 solid;
+}
+
 .gallery-inner {
   /* display: block; */
   margin-left: 50px;
@@ -256,7 +260,7 @@ h2 {
 }
 
 .contact-message {
-  padding-top:30px;
+  padding-top:50px;
 }
 
 .mailadress {
@@ -265,7 +269,7 @@ h2 {
 }
 
 .fa-brands {
-  font-size: 4em;
+  font-size: 2em;
   padding-top: 40px;
 }
 
