@@ -17,4 +17,15 @@ $(function () {
     return false;
   });
 
+  //スクロールの保存
+  scrollBehavior(to, from, savedPosition) ;{
+    if (savedPosition) {
+        sessionStorage.setItem('positionY', savedPosition.y);
+        return savedPosition
+    } else {
+        sessionStorage.setItem('positionY', 0);
+        return { x: 0, y: 0 }
+    }
+}
+
 });
